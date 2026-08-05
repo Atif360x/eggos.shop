@@ -1,23 +1,28 @@
 import Link from "next/link"
 
+
+
 export default function Navbar(){
     return(
         <nav>
-            <div className="w-[90vw] bg-[#C97B3D]/60 border border-[#C97B3D] rounded-[16] flex justify-self-center justify-around items-center px-8 py-4 m-5">
+            <div className="w-[90vw] bg-[#3D2B1F]/80 bg-blur-md border fixed border-[#3D2B1F] text-[#FDFBF6] rounded-[16px] flex justify-self-center justify-between items-center px-8 py-4 m-5">
                 <div>
-
+                    <img src="/egglogo.svg" alt="logo" width={25} className="cursor-pointer fill-[#FDFBF6]"/>
+                    
                 </div>
 
-                <div className="text-bold w-auto">
-                    <h3>
+                <div className="font-bold w-auto hidden md:block">
+                    <h3 className="cursor-pointer">
                         eggos.shop
                     </h3>
                 </div>
 
                 <div className="w-auto flex gap-3">
-                    <Link href="#">shop</Link>
+                    <Link href="/shop" className="hover: hover:scale-105 transition-all duration-300 ease-out inline-block">shop</Link>
                     <p>|</p>
-                    <Link href="#">about</Link>
+                    <Link href="about" className="hover: hover:scale-105 transition-all duration-300 ease-out inline-block">about</Link>
+                    <p>|</p>
+                    <Link href="about" className="hover: hover:scale-105 transition-all duration-300 ease-out inline-block">profile</Link>
                 </div>
             </div>
         </nav>
