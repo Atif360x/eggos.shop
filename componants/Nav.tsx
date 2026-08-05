@@ -5,9 +5,9 @@ import Link from "next/link"
 export default function Navbar(){
     return(
         <nav>
-            <div className="w-[90vw] bg-[#3D2B1F]/80 bg-blur-md border fixed border-[#3D2B1F] text-[#FDFBF6] rounded-[16px] flex justify-self-center justify-between items-center px-8 py-4 m-5">
+            <div className="w-[90vw] bg-[#3D2B1F]/90 backdrop-blur-md border fixed border-[#3D2B1F] text-[#FDFBF6] rounded-[16px] flex justify-self-center justify-between bg-blur-md items-center px-8 py-4 m-5">
                 <div>
-                    <img src="/egglogo.svg" alt="logo" width={25} className="cursor-pointer fill-[#FDFBF6]"/>
+                    <img src="/egg.svg" alt="logo" width={25} className="cursor-pointer fill-[#FDFBF6]"/>
                     
                 </div>
 
