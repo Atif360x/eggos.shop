@@ -1,11 +1,11 @@
-import Link from "next/link"
+import Link from "next/link";
 
 
 
 export default function Navbar(){
     return(
-        <nav>
-            <div className="w-[90vw] bg-[#3D2B1F]/90 backdrop-blur-md border fixed border-[#3D2B1F] text-[#FDFBF6] rounded-[16px] flex justify-self-center justify-between bg-blur-md items-center px-8 py-4 m-5">
+        <nav className="fixed top-0 left-0 w-full z-50 flex justify-center">
+            <div className=" w-[90vw] bg-[#3D2B1F]/90 backdrop-blur-md border border-[#3D2B1F] text-[#FDFBF6] rounded-[16px] flex justify-self-center justify-between bg-blur-md items-center px-8 py-4 m-5">
                 <div>
                     <img src="/egg.svg" alt="logo" width={25} className="cursor-pointer fill-[#FDFBF6]"/>
                     
