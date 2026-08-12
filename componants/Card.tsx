@@ -1,3 +1,5 @@
+import Animations from "@/componants/Animations";
+
 import Link from "next/link";
 
 export default function Card () {

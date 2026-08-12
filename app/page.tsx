@@ -5,6 +5,7 @@ import { IconLeaf, IconClock, IconShieldCheck } from '@tabler/icons-react';
 
 import Card from "@/componants/Card";
 
+
 <IconLeaf size={20} stroke={1.5} />
 
 export default function Home() {
