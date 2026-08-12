@@ -244,8 +244,8 @@ export default function App() {
       <footer className="mt-12 text-center text-[10px] font-black text-brand-dark/45 max-w-6xl mx-auto px-6 w-full">
         <div className="border-t border-brand-dark/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex flex-col md:flex-row items-center gap-4">
-            <span className="flex items-center gap-1"><MapPin className="w-3.5 h-3.5 text-brand-orange" /> Eggos Poultry Farm, Sector 12, Chandigarh</span>
-            <span className="flex items-center gap-1"><Phone className="w-3.5 h-3.5 text-brand-orange" /> Farm Hotline: +91 98765 43210</span>
+            <span className="flex items-center gap-1"><MapPin className="w-3.5 h-3.5 text-brand-orange" /> Eggos Poultry Farm, pune</span>
+            <span className="flex items-center gap-1"><Phone className="w-3.5 h-3.5 text-brand-orange" /> Farm Hotline: +91 XXXXX XXXXX</span>
           </div>
           <p>© 2026 EGGOS FRESH POULTRY FARM. ALL RIGHTS RESERVED.</p>
         </div>
